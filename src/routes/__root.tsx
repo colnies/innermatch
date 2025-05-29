@@ -80,14 +80,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body className="min-h-screen bg-gradient-to-br from-slate-200 to-blue-50 font-['Ubuntu',sans-serif]">
         {/* Header Navigation */}
-        <header className="fixed top-2 left-1/2 transform -translate-x-1/2 z-50">
+        <header className="fixed top-2 w-[70%] md:w-auto left-1/2 transform -translate-x-1/2 z-50">
           <nav className="bg-white/80 backdrop-blur-sm rounded-lg border border-white/20 shadow-lg shadow-black/5 px-6 py-2">
             <div className="flex items-center justify-between">
               {/* Logo */}
               <img src="/ring-logo.png" width={80} height={80} className="mr-2"/>
               <Link
                 to="/"
-                className="text-2xl font-bold text-slate-900 hover:text-blue-700 transition-all duration-300 mr-36"
+                className="text-xl md:text-2xl font-bold text-slate-900 hover:text-blue-700 transition-all duration-300 md:mr-8 "
               >
                 The Inner Match
               </Link>
@@ -261,7 +261,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
           </div>
         </footer>
 
-        
+        <TanStackRouterDevtools position="bottom-right" />
         <Scripts />
       </body>
     </html>
