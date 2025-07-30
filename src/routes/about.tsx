@@ -106,7 +106,7 @@ function About() {
                 
                 <div className="lg:col-span-2">
                   <h3 className="text-3xl font-bold text-slate-900 mb-4">
-                    [Your Name Here]
+                    Eddie Terry
                   </h3>
                   <p className="text-lg text-slate-700 mb-6 leading-relaxed">
                     As someone who has walked the path of recovery, I understand the power of sharing 
@@ -114,7 +114,7 @@ function About() {
                     and authenticity are essential ingredients for lasting recovery.
                   </p>
                   <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-                    For the past [X] years, I've been dedicated to creating spaces where people feel 
+                    For the past 4 years, I've been dedicated to creating spaces where people feel 
                     safe to share their truth. Through The Inner Match, I hope to reach those who 
                     might be struggling in silence, letting them know that recovery is possible.
                   </p>
@@ -130,7 +130,7 @@ function About() {
                     </div>
                     <div className="flex items-center">
                       <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
-                      <span className="text-slate-700">[X] Years in Recovery</span>
+                      <span className="text-slate-700">3 Years in Recovery</span>
                     </div>
                   </div>
                 </div>

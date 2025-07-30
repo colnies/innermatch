@@ -130,7 +130,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Featured Episodes */}
+      {/* Featured Episodes
       <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
@@ -143,7 +143,7 @@ function Home() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {/* Episode 1 */}
+
             <div className="bg-gradient-to-br from-slate-50 to-blue-50/50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 backdrop-blur-sm group">
               <div className="flex items-center mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
@@ -167,8 +167,7 @@ function Home() {
                 </svg>
               </button>
             </div>
-            
-            {/* Episode 2 */}
+
             <div className="bg-gradient-to-br from-slate-50 to-blue-50/50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 backdrop-blur-sm group">
               <div className="flex items-center mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
@@ -192,8 +191,7 @@ function Home() {
                 </svg>
               </button>
             </div>
-            
-            {/* Episode 3 */}
+
             <div className="bg-gradient-to-br from-slate-50 to-blue-50/50 rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-white/50 backdrop-blur-sm group">
               <div className="flex items-center mb-6">
                 <div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mr-5 group-hover:scale-110 transition-transform duration-300">
@@ -220,6 +218,7 @@ function Home() {
           </div>
         </div>
       </section>
+         */}
 
       {/* CTA Section */}
       <section className="relative py-24 bg-gradient-to-br from-blue-700 via-blue-800 to-blue-900 text-white overflow-hidden">

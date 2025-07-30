@@ -104,6 +104,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 >
                   Home
                 </Link>
+                {/*
                 <Link
                   to="/episodes"
                   activeProps={{
@@ -113,6 +114,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 >
                   Episodes
                 </Link>
+                */}
                 <Link
                   to="/about"
                   activeProps={{
